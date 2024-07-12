@@ -2,6 +2,10 @@ Backend
 python3 -m venv venv  
 . venv/bin/activate или .\venv\Scripts\activate.bat  
 pip install -r requirements.txt  
+or
+cd backend  
+poetry install  
+poetry shell  
 uvicorn src.main:app --reload (обязательно находясь внутри папки backend)  
   
 Frontend  
